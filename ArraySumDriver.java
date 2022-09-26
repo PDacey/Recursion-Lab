@@ -30,7 +30,7 @@ public class ArraySumDriver <T> {
 		sum = sumOfArray(myArray, 5);
 		System.out.println(sum);
 		
-		int fibTest = fibonacci(30);
+		long fibTest = fibonacci(50);
 		System.out.println(fibTest);
 	}
 	
@@ -55,13 +55,13 @@ public class ArraySumDriver <T> {
 	}
 	
 	
-	static int test[] = new int[100];
+	static long test[] = new long[1000];
 	/**
 	 * fibonacci method using dynamic programming technique to calculate a number using Fibonacci
 	 * @param num Number to compute
 	 * @return Fibonacci number
 	 */
-	public static int fibonacci(int num)
+	public static long fibonacci(int num)
 	{
 		if (num == 0)
 		{
